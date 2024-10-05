@@ -41,8 +41,8 @@ struct NetflixFilterCell: View {
         Color.black.ignoresSafeArea()
         VStack {
             NetflixFilterCell()
-            NetflixFilterCell(isSelected: true)
             NetflixFilterCell(isDropdown: false)
+            NetflixFilterCell(isSelected: false)
         }
     }
 }

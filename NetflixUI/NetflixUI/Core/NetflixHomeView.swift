@@ -14,7 +14,7 @@ struct NetflixHomeView: View {
             VStack {
                 Header
                     .padding(.horizontal, 16)
-                
+                NetflixFilterBarView()
                 Spacer()
             }
         }
