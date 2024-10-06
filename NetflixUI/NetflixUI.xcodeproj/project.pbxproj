@@ -10,6 +10,7 @@
 		923E96892C9732E90032F002 /* NetflixHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E96882C9732E90032F002 /* NetflixHomeView.swift */; };
 		92E184B82CAD0B7A007B55AD /* NetflixFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184B72CAD0B7A007B55AD /* NetflixFilterCell.swift */; };
 		92E184BA2CADA27C007B55AD /* NetflixFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184B92CADA27C007B55AD /* NetflixFilterBarView.swift */; };
+		92E184BC2CB12BBA007B55AD /* NetflixHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184BB2CB12BBA007B55AD /* NetflixHeroCell.swift */; };
 		92E2F2822C972BE100568FF7 /* NetflixUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2F2812C972BE100568FF7 /* NetflixUIApp.swift */; };
 		92E2F2842C972BE100568FF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2F2832C972BE100568FF7 /* ContentView.swift */; };
 		92E2F2862C972BE300568FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E2F2852C972BE300568FF7 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		923E96882C9732E90032F002 /* NetflixHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeView.swift; sourceTree = "<group>"; };
 		92E184B72CAD0B7A007B55AD /* NetflixFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterCell.swift; sourceTree = "<group>"; };
 		92E184B92CADA27C007B55AD /* NetflixFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterBarView.swift; sourceTree = "<group>"; };
+		92E184BB2CB12BBA007B55AD /* NetflixHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHeroCell.swift; sourceTree = "<group>"; };
 		92E2F27E2C972BE100568FF7 /* NetflixUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E2F2812C972BE100568FF7 /* NetflixUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixUIApp.swift; sourceTree = "<group>"; };
 		92E2F2832C972BE100568FF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				92E184B72CAD0B7A007B55AD /* NetflixFilterCell.swift */,
 				92E184B92CADA27C007B55AD /* NetflixFilterBarView.swift */,
+				92E184BB2CB12BBA007B55AD /* NetflixHeroCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				92E184BA2CADA27C007B55AD /* NetflixFilterBarView.swift in Sources */,
 				92E2F2842C972BE100568FF7 /* ContentView.swift in Sources */,
+				92E184BC2CB12BBA007B55AD /* NetflixHeroCell.swift in Sources */,
 				92E2F2822C972BE100568FF7 /* NetflixUIApp.swift in Sources */,
 				92E184B82CAD0B7A007B55AD /* NetflixFilterCell.swift in Sources */,
 				923E96892C9732E90032F002 /* NetflixHomeView.swift in Sources */,

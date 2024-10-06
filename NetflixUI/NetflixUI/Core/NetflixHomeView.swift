@@ -11,11 +11,19 @@ struct NetflixHomeView: View {
     var body: some View {
         ZStack {
             Color.netflixBlack.ignoresSafeArea()
-            VStack {
-                Header
-                    .padding(.horizontal, 16)
-                NetflixFilterBarView()
-                Spacer()
+            ScrollView(.vertical) {
+                VStack {
+                    Header
+                        .padding(.horizontal, 16)
+                    NetflixFilterBarView()
+                }
+
+                NetflixHeroCell()
+                ForEach(0..<20) { _ in
+                    Rectangle()
+                        .fill(.white)
+                        .frame(height: 200)
+                }
             }
         }
     }
