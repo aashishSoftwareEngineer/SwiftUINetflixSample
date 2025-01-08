@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		923E96892C9732E90032F002 /* NetflixHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E96882C9732E90032F002 /* NetflixHomeView.swift */; };
+		92D7597E2D2EA45E00C43873 /* NetflixDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7597D2D2EA45B00C43873 /* NetflixDetailView.swift */; };
 		92E184B82CAD0B7A007B55AD /* NetflixFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184B72CAD0B7A007B55AD /* NetflixFilterCell.swift */; };
 		92E184BA2CADA27C007B55AD /* NetflixFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184B92CADA27C007B55AD /* NetflixFilterBarView.swift */; };
 		92E184BC2CB12BBA007B55AD /* NetflixHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E184BB2CB12BBA007B55AD /* NetflixHeroCell.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		923E96882C9732E90032F002 /* NetflixHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeView.swift; sourceTree = "<group>"; };
+		92D7597D2D2EA45B00C43873 /* NetflixDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixDetailView.swift; sourceTree = "<group>"; };
 		92E184B72CAD0B7A007B55AD /* NetflixFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterCell.swift; sourceTree = "<group>"; };
 		92E184B92CADA27C007B55AD /* NetflixFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterBarView.swift; sourceTree = "<group>"; };
 		92E184BB2CB12BBA007B55AD /* NetflixHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHeroCell.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		923E96872C972D5E0032F002 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				92D7597D2D2EA45B00C43873 /* NetflixDetailView.swift */,
 				923E96882C9732E90032F002 /* NetflixHomeView.swift */,
 			);
 			path = Core;
@@ -294,6 +297,7 @@
 				92E184BA2CADA27C007B55AD /* NetflixFilterBarView.swift in Sources */,
 				92E2F2842C972BE100568FF7 /* ContentView.swift in Sources */,
 				92E184BC2CB12BBA007B55AD /* NetflixHeroCell.swift in Sources */,
+				92D7597E2D2EA45E00C43873 /* NetflixDetailView.swift in Sources */,
 				92E2F2822C972BE100568FF7 /* NetflixUIApp.swift in Sources */,
 				92E184C02CB448CC007B55AD /* MyAsyncImage.swift in Sources */,
 				92E184BE2CB3FC7A007B55AD /* NetflixMovieCell.swift in Sources */,
