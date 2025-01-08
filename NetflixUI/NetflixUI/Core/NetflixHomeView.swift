@@ -9,22 +9,28 @@ import SwiftUI
 
 struct NetflixHomeView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             Color.netflixBlack.ignoresSafeArea()
-            ScrollView(.vertical) {
-                VStack {
-                    Header
-                        .padding(.horizontal, 16)
-                    NetflixFilterBarView()
-                }
 
-                NetflixHeroCell()
-                ForEach(0..<20) { _ in
-                    Rectangle()
-                        .fill(.white)
-                        .frame(height: 200)
+            ScrollView(.vertical) {
+                VStack(spacing: 8) {
+                    
+                    NetflixHeroCell()
+                        .padding(.top, 120)
+                    ForEach(0..<20) { _ in
+                        Rectangle()
+                            .fill(.white)
+                            .frame(height: 200)
+                    }
                 }
             }
+            VStack(spacing: 0) {
+                Header
+                    .padding(.horizontal, 16)
+                NetflixFilterBarView()
+                    .padding(.top, 16)
+            }
+            .background(.netflixBlack)
         }
     }
 }
